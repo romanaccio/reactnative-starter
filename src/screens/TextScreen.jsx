@@ -16,7 +16,6 @@ const TextScreen = () => {
         autoCapitalize='none'
         autoCorrect={false}
       />
-      <Text>Password is {password}</Text>
       {password.length < 5 ? (
         <Text>Password must be longer than 5 characters</Text>
       ) : null}
