@@ -48,6 +48,12 @@ const HomeScreen = ({ navigation }) => {
           navigation.navigate('Text');
         }}
       />
+      <Button
+        title='Go to box page'
+        onPress={() => {
+          navigation.navigate('Box');
+        }}
+      />
     </View>
   );
 };
