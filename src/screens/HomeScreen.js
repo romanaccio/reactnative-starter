@@ -54,6 +54,12 @@ const HomeScreen = ({ navigation }) => {
           navigation.navigate('Box');
         }}
       />
+      <Button
+        title='Go to scroll view page'
+        onPress={() => {
+          navigation.navigate('ScrollView');
+        }}
+      />
     </View>
   );
 };
